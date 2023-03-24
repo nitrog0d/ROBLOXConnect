@@ -2,7 +2,7 @@
   "name": "robloxconnect",
   "displayName": "ROBLOX Connect",
   "description": "Connects with ROBLOX to direct log output and allows script execution",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "repository": {
     "type": "git",
     "url": "https://github.com/nitrog0d/ROBLOXConnect"
@@ -26,7 +26,7 @@
       },
       {
         "command": "robloxconnect.execute_files",
-        "title": "ROBLOX Connect: Execute Lua files on ROBLOX"
+        "title": "Execute Lua files on ROBLOX"
       },
       {
         "command": "robloxconnect.execute_input",
