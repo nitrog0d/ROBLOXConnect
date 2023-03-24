@@ -54,7 +54,7 @@ export function activate(context: vscode.ExtensionContext) {
 	}));
 
 	const executeButton = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Left);
-	executeButton.command = 'robloxconnect.execute';
+	executeButton.command = 'robloxconnect.execute_active';
 	executeButton.text = '$(debug-start) Execute Lua';
 	executeButton.tooltip = 'Execute the Lua code in the current editor on ROBLOX';
 	executeButton.show();
