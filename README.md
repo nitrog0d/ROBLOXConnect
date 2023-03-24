@@ -2,12 +2,16 @@
 
 A VSCode extension that lets you connect to ROBLOX and run scripts, with output and error logs.
 
+Recommended to use with [Roblox LSP](https://marketplace.visualstudio.com/items?itemName=Nightrains.robloxlsp) for intellisense.
+
 ## Features
 
 - Properly made and coded, compared to others
-- Supports Synapse X and Script-Ware V2 (and probably other injectors/exploits that support WebSockets)
-- Supports multiple clients (if for some reason you need that)
+- Button to run the current open file (on the bottom left of VSCode)
+- Output window for errors and logs from ROBLOX (CTRL + SHIFT + U, select "ROBLOX Connect" on the dropdown)
+- Supports multiple clients (once more than one client is connected, you can select which client to run scripts on)
 - Supports selecting multiple files to run on the context menu (right click on file(s))
+- Supports Synapse X and Script-Ware V2 (and probably other injectors/exploits that support WebSockets)
 
 ## Lua code
 
