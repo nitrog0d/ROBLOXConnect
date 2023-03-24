@@ -10,6 +10,7 @@ Recommended to use with [Roblox LSP](https://marketplace.visualstudio.com/items?
 
 - Properly made and coded, compared to others
 - Button to run the current open file (on the bottom left of VSCode)
+- Command to quick execute Lua code (CTRL + SHIFT + P, type "Quick execute")
 - Output window for errors and logs from ROBLOX (CTRL + SHIFT + U, select "ROBLOX Connect" on the dropdown)
 - Supports multiple clients (once more than one client is connected, you can select which client to run scripts on)
 - Supports selecting multiple files to run on the context menu (right click on file(s))

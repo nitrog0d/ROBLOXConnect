@@ -22,11 +22,15 @@
     "commands": [
       {
         "command": "robloxconnect.execute_active",
-        "title": "Execute the Lua code in the active editor on ROBLOX"
+        "title": "ROBLOX Connect: Execute the Lua code in the active editor on ROBLOX"
       },
       {
         "command": "robloxconnect.execute_files",
-        "title": "Execute Lua files on ROBLOX"
+        "title": "ROBLOX Connect: Execute Lua files on ROBLOX"
+      },
+      {
+        "command": "robloxconnect.execute_input",
+        "title": "ROBLOX Connect: Quick execute your Lua code input on ROBLOX"
       }
     ],
     "menus": {

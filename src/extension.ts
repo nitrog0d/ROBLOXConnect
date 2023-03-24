@@ -53,6 +53,16 @@ export function activate(context: vscode.ExtensionContext) {
 		runLuasOnConnectedClients(luas);
 	}));
 
+	context.subscriptions.push(vscode.commands.registerCommand('robloxconnect.execute_input', async () => {
+		const input = await vscode.window.showInputBox({
+			title: 'ROBLOX Connect',
+			placeHolder: 'Enter Lua code to execute',
+			ignoreFocusOut: true
+		});
+
+		if (input !== undefined) runLuasOnConnectedClients([ input ]);
+	}));
+
 	const executeButton = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Left);
 	executeButton.command = 'robloxconnect.execute_active';
 	executeButton.text = '$(debug-start) Execute Lua';
