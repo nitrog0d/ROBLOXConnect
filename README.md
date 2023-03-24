@@ -2,6 +2,8 @@
 
 A VSCode extension that lets you connect to ROBLOX and run scripts, with output and error logs.
 
+Link: [https://marketplace.visualstudio.com/items?itemName=nitro.robloxconnect](https://marketplace.visualstudio.com/items?itemName=nitro.robloxconnect)
+
 Recommended to use with [Roblox LSP](https://marketplace.visualstudio.com/items?itemName=Nightrains.robloxlsp) for intellisense.
 
 ## Features
