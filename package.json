@@ -2,7 +2,7 @@
   "name": "robloxconnect",
   "displayName": "ROBLOX Connect",
   "description": "Connects with ROBLOX to direct log output and allows script execution",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/nitrog0d/ROBLOXConnect"

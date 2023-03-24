@@ -94,7 +94,7 @@ export function activate(context: vscode.ExtensionContext) {
 				}
 			}
 			else if (json.type === 'detailed_error') {
-				logger.error(`[${ws.clientData.displayName}] [ROBLOX] ${json.data.message}`);
+				logger.error(`${wss.clients.size > 1 ? `[${ws.clientData.name}] ` : ''}[ROBLOX] ${json.data.message}`);
 			}
 		});
 
